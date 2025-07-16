@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import '../models/financial_models.dart';
 
 class TaskService {
-  static const String baseUrl = 'http://192.168.100.67:3001/tasks';
+  static const String baseUrl = 'https://your-backend-name.onrender.com/tasks';
   final http.Client client;
 
   TaskService({http.Client? client}) : client = client ?? http.Client();
