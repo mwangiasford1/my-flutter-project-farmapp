@@ -4,7 +4,8 @@ import 'package:http/http.dart' as http;
 import '../models/financial_models.dart';
 
 class TaskService {
-  static const String baseUrl = 'https://your-backend-name.onrender.com/tasks';
+  static const String baseUrl =
+      'https://us-central1-farmappeeeeqqq.cloudfunctions.net/api';
   final http.Client client;
 
   TaskService({http.Client? client}) : client = client ?? http.Client();

@@ -3,7 +3,8 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class AuthService {
-  static const String baseUrl = 'http://192.168.100.67:3001';
+  static const String baseUrl =
+      'https://us-central1-farmappeeeeqqq.cloudfunctions.net/api';
 
   Future<Map<String, dynamic>> register(
       String name, String email, String password) async {
