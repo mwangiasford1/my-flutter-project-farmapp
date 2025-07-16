@@ -1,0 +1,17 @@
+{
+  "quick_actions": "Quick Actions",
+  "add_income": "Add Income",
+  "add_expense": "Add Expense",
+  "add_task": "Add Task",
+  "scan_receipt": "Scan Receipt",
+  "recent_transactions": "Recent Transactions",
+  "view_all": "View All",
+  "welcome_back": "Welcome Back",
+  "financial_summary": "Financial Summary",
+  "income": "Income",
+  "expenses": "Expenses",
+  "profit_loss": "Profit/Loss",
+  "no_transactions_yet": "No transactions yet",
+  "cancel": "Cancel",
+  "profile": "Profile"
+} 
